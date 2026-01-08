@@ -1,1 +1,0 @@
-# krupspurohit.github.io
