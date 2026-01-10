@@ -1,0 +1,116 @@
+PORTFOLIO DATA FILE
+===================
+
+BASIC INFORMATION
+-----------------
+Name: Krupa Purohit
+Role: Frontend Developer
+Location: Bengaluru, Karnataka, India
+Email: krupapurohit84259@gmail.com
+LinkedIn: https://linkedin.com/in/krupapurohit
+GitHub: https://github.com/krupspurohit
+Portfolio Platform: Codex
+
+-----------------------------------
+
+ABOUT SECTION
+-------------
+I am a Frontend-focused Software Developer with experience in building clean, responsive, and user-friendly web interfaces using React, JavaScript, HTML, and CSS.
+
+I started my career as a Manual Tester, which helped me develop a strong quality-driven mindset. Currently, I focus on building reusable UI components, integrating APIs, and creating smooth user experiences using modern frontend tools.
+
+-----------------------------------
+
+SKILLS
+------
+React.js
+JavaScript
+HTML
+CSS
+Tailwind CSS
+UI Component Development
+API Integration
+Debugging
+Problem Solving
+
+-----------------------------------
+
+EXPERIENCE
+----------
+
+Role: Junior Software Engineer
+Company: Krishith Tech Solutions
+Duration: January 2025 – Present
+
+Responsibilities:
+- Designed and developed scalable React UI components for an Order and Inventory Management System.
+- Improved system performance and operational efficiency by 20%.
+- Implemented user-facing wishlist functionality using React components.
+- Contributed to UI implementation of a product recommendation feature, increasing sales by 10%.
+- Integrated frontend UI with backend APIs.
+- Participated in requirement discussions, UI enhancements, testing, and bug fixes.
+
+-----------------------------------
+
+Role: Software Engineer Intern
+Company: Krishith Tech Solutions
+Duration: November 2024 – January 2025
+
+Responsibilities:
+- Worked on frontend development using React, JavaScript, HTML, and CSS.
+- Built and enhanced reusable UI components.
+- Practiced JavaScript fundamentals and logical problem solving.
+- Gained experience in responsive and component-based UI development.
+- Collaborated with mentors to understand real-world development workflows.
+
+-----------------------------------
+
+Role: Manual Tester
+Company: Rajeshwar Infotech
+Duration: June 2023 – October 2024
+
+Responsibilities:
+- Performed manual testing on web and application-based projects.
+- Conducted Functional, Regression, and Smoke Testing.
+- Followed Software Testing Life Cycle (STLC).
+- Designed and executed test cases.
+- Reported bugs with clear reproduction steps and verified fixes.
+
+-----------------------------------
+
+PROJECTS
+--------
+
+Project Name: Order and Inventory Management UI
+Description: React-based UI system for managing orders and inventory with improved performance and scalability.
+Tech Stack: React, JavaScript, HTML, CSS, Tailwind CSS
+Impact: Improved operational efficiency and system performance by 20%.
+
+-----------------------------------
+
+Project Name: Wishlist Feature
+Description: User-facing wishlist functionality built using interactive React components.
+Tech Stack: React, JavaScript, HTML, CSS
+Impact: Enhanced user engagement.
+
+-----------------------------------
+
+Project Name: Product Recommendation UI
+Description: UI implementation of a product recommendation feature.
+Tech Stack: React, JavaScript, HTML, CSS
+Impact: Increased sales by 10%.
+
+-----------------------------------
+
+CONTACT
+-------
+Email: krupapurohit84259@gmail.com
+LinkedIn: https://linkedin.com/in/krupapurohit
+GitHub: https://github.com/krupspurohit
+
+-----------------------------------
+
+FOOTER
+------
+© 2026 Krupa Purohit
+Built using React, Tailwind CSS, and Framer Motion

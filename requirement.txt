@@ -1,0 +1,269 @@
+Portfolio Website – Detailed Requirements
+1️⃣ Project Overview
+
+The goal of this project is to create a modern, responsive Frontend Developer portfolio website that showcases my skills, experience, and projects. The portfolio should present a clean UI, smooth animations, and clear content to attract recruiters and hiring managers.
+
+2️⃣ Technology Stack
+🔹 Frontend
+
+React – Component-based UI development
+
+Tailwind CSS – Utility-first styling for responsive design
+
+Framer Motion – Smooth and professional UI animations
+
+🔹 Tools & Platform
+
+Codex – Development and preview platform
+
+GitHub – Version control and project hosting
+
+Node.js & npm – Dependency management
+
+3️⃣ Design Requirements
+🎨 UI / UX
+
+Clean, modern, and minimal design
+
+Professional look suitable for recruiters
+
+Consistent color theme (preferably neutral or soft accent colors)
+
+Easy-to-read typography
+
+Clear section separation
+
+📱 Responsiveness
+
+Fully responsive on:
+
+Mobile
+
+Tablet
+
+Desktop
+
+Use Tailwind responsive utilities (sm:, md:, lg:)
+
+4️⃣ Animation Requirements
+
+Use Framer Motion with subtle and professional animations:
+
+Fade-in animation when sections appear
+
+Smooth page load animation
+
+Hover effects on:
+
+Buttons
+
+Project cards
+
+Links
+
+Avoid excessive or distracting animations
+
+5️⃣ Website Sections & Functional Requirements
+🔹 1. Navbar
+
+Sticky or fixed navigation bar
+
+Smooth scrolling to sections
+
+Responsive hamburger menu for mobile
+
+Sections:
+
+Home
+
+About
+
+Skills
+
+Experience
+
+Projects
+
+Contact
+
+🔹 2. Hero Section
+
+Display:
+
+Name: Krupa Purohit
+
+Role: Frontend Developer
+
+Short tagline (1 line)
+
+Call-to-action buttons:
+
+“View Projects”
+
+“Contact Me”
+
+Framer Motion entrance animation
+
+🔹 3. About Section
+
+Short professional summary
+
+Highlight:
+
+Frontend focus
+
+Transition from Manual Tester to Developer
+
+Interest in React and UI development
+
+Simple and readable text
+
+🔹 4. Skills Section
+
+Display skills in cards or badges:
+
+React
+
+JavaScript
+
+HTML
+
+CSS
+
+Tailwind CSS
+
+UI Component Development
+
+API Integration
+
+Debugging
+
+Problem Solving
+
+Optional:
+
+Progress bars or icons
+
+🔹 5. Experience Section
+
+Show professional experience clearly:
+
+Junior Software Engineer – Krishith Tech Solutions
+
+UI development using React
+
+Order & Inventory Management System
+
+Improved performance by 20%
+
+Wishlist and Product Recommendation UI
+
+Increased sales by 10%
+
+API integration with backend
+
+Software Engineer Intern – Krishith Tech Solutions
+
+React, JavaScript, HTML, CSS
+
+UI component development
+
+Logic building and problem solving
+
+Manual Tester – Rajeshwar Infotech
+
+Manual testing
+
+STLC
+
+Test cases and bug reporting
+
+🔹 6. Projects Section
+
+Each project should include:
+
+Project title
+
+Short description
+
+Tech stack used
+
+GitHub repository link
+
+Live demo link (if available)
+
+Projects to include:
+
+Order & Inventory Management UI
+
+Wishlist Feature
+
+Product Recommendation UI
+
+🔹 7. Contact Section
+
+Email address
+
+LinkedIn profile link
+
+GitHub profile link
+
+Simple contact form (optional)
+
+Clickable icons using react-icons
+
+🔹 8. Footer
+
+Copyright text
+
+GitHub & LinkedIn icons
+
+Minimal design
+
+6️⃣ Code Quality Requirements
+
+Use reusable React components
+
+Clean and readable code
+
+Proper folder structure
+
+Meaningful component names
+
+Avoid unnecessary complexity
+
+Comments where helpful
+
+7️⃣ Accessibility & Best Practices
+
+Semantic HTML elements
+
+Accessible buttons and links
+
+Proper contrast for text
+
+Keyboard-friendly navigation
+
+8️⃣ Performance Requirements
+
+Optimized images
+
+Minimal animations
+
+Fast loading time
+
+Clean Tailwind usage
+
+9️⃣ Deliverables
+
+Fully functional portfolio website
+
+Responsive UI
+
+Clean React component structure
+
+GitHub repository with:
+
+README.md
+
+Requirements documentation
