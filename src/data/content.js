@@ -78,7 +78,7 @@ export const projects = [
 export const contactLinks = {
   email: 'krupapurohit84259@gmail.com',
   linkedin: 'https://linkedin.com/in/krupapurohit',
-  phone: '+91 98765 43210',
+  phone: '+91 7046068933',
   location: 'Bengaluru, Karnataka, India',
 }
 
