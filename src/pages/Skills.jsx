@@ -13,7 +13,7 @@ const Skills = () => (
     <SectionHeading
       eyebrow="Skills"
       title="Tools I build with"
-      text="Focused on modern React stacks, utility-first styling, and dependable UI delivery."
+      text="From building responsive user interfaces with React.js to developing backend APIs with ASP.NET Core, I use modern technologies to create scalable and reliable web applications."
     />
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
       {skills.map((skill) => (
