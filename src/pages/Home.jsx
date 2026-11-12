@@ -19,7 +19,7 @@ const Home = () => (
       <SectionHeading
         eyebrow="Highlights"
         title="Experience snapshots"
-        text="A quick look at how I drive UI performance, usability, and impact."
+       text="My experience in React.js, ASP.NET Core, and building reliable web applications."
       />
       <ExperienceCards compact />
     </motion.section>
@@ -34,7 +34,7 @@ const Home = () => (
       <SectionHeading
         eyebrow="Featured"
         title="Project preview"
-        text="A small sample of UI work; see all projects for details."
+        text="Explore my work with React.js, ASP.NET Core, and modern web technologies."
       />
       <ProjectsGrid />
     </motion.section>
