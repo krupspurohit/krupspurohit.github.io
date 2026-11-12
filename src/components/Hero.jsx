@@ -99,8 +99,8 @@ const Hero = () => (
           </a>
         </div>
 
-        /* {/* Technology Stack */}
-        <div className="pt-2">
+        {/* Technology Stack */}
+        {/* <div className="pt-2">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-indigo-500">
             Technologies I Work With
           </p>
@@ -125,7 +125,7 @@ const Hero = () => (
           </div>
         </div>
       </motion.div>
-    </div> */
+    </div>  */}
 
     {/* Achievements */}
     <motion.div
