@@ -10,6 +10,7 @@ const HeroImageCard = () => (
     variants={sectionVariants}
   >
     <div className="absolute right-[-15%] top-[-20%] h-32 w-32 rounded-full bg-gradient-to-br from-indigo-100 to-sky-50 blur-3xl" />
+
     <div className="relative overflow-hidden rounded-2xl bg-slate-100 ring-1 ring-slate-200">
       <img
         src={profileImg}
@@ -30,15 +31,37 @@ const Hero = () => (
   >
     <div className="grid grid-cols-1 gap-10 md:grid-cols-[1.1fr_1.9fr] md:items-center">
       <HeroImageCard />
+
       <motion.div className="space-y-6" variants={sectionVariants}>
+        {/* Professional Title */}
         <span className="inline-flex items-center gap-2 rounded-full bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-600">
           <span className="h-2 w-2 rounded-full bg-indigo-500" />
-          Frontend Developer
+          Full Stack Developer
         </span>
-        <h1 className="text-4xl sm:text-5xl font-semibold leading-tight text-slate-900">Krupa Purohit</h1>
-        <p className="text-lg text-slate-600">
-          I craft clean, responsive interfaces with React and Tailwind. I care about performant UI, thoughtful animations, and turning complex ideas into intuitive screens.
+
+        {/* Name */}
+        <h1 className="text-4xl sm:text-5xl font-semibold leading-tight text-slate-900">
+          Hi, I'm Krupa Purohit
+        </h1>
+
+        {/* Introduction */}
+        <p className="text-lg text-slate-600 leading-relaxed">
+          I am a Full Stack Developer with a strong focus on frontend
+          development, building scalable, responsive, and user-friendly
+          web applications using React.js, JavaScript, and modern web
+          technologies. I also work with ASP.NET Core, C#, Entity
+          Framework Core, and SQL Server to develop backend services
+          and RESTful APIs.
         </p>
+
+        <p className="text-base text-slate-500 leading-relaxed">
+          With a background in Manual Testing, I bring a quality-driven
+          mindset to software development. I enjoy solving problems,
+          building maintainable applications, and creating seamless
+          user experiences.
+        </p>
+
+        {/* Action Buttons */}
         <div className="flex flex-wrap items-center gap-4">
           <a
             href="/projects"
@@ -46,6 +69,7 @@ const Hero = () => (
           >
             View Projects
           </a>
+
           <a
             href={`tel:${contactLinks.phone.replace(/\s+/g, '')}`}
             className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-slate-800 font-semibold shadow-sm transition hover:border-indigo-200 hover:text-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
@@ -53,18 +77,25 @@ const Hero = () => (
             <FiPhoneCall className="text-indigo-500" />
             {contactLinks.phone}
           </a>
+
           <div className="flex items-center gap-3 text-slate-500">
             <FiMapPin />
             <span>{contactLinks.location}</span>
           </div>
         </div>
+
+        {/* Contact Links */}
         <div className="flex flex-wrap gap-3 text-sm text-slate-600">
           <div className="flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 shadow-sm ring-1 ring-slate-200">
             <FiMail className="text-indigo-500" />
-            <a href={`mailto:${contactLinks.email}`} className="hover:text-indigo-600">
+            <a
+              href={`mailto:${contactLinks.email}`}
+              className="hover:text-indigo-600"
+            >
               {contactLinks.email}
             </a>
           </div>
+
           <a
             href={contactLinks.linkedin}
             target="_blank"
@@ -75,9 +106,36 @@ const Hero = () => (
             LinkedIn
           </a>
         </div>
+
+        {/* Technology Stack */}
+        <div className="pt-2">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-indigo-500">
+            Technologies I Work With
+          </p>
+
+          <div className="flex flex-wrap gap-2">
+            {[
+              'React.js',
+              'JavaScript',
+              'ASP.NET Core',
+              'C#',
+              'Entity Framework Core',
+              'SQL Server',
+              'Tailwind CSS',
+            ].map((tech) => (
+              <span
+                key={tech}
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 shadow-sm"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
       </motion.div>
     </div>
 
+    {/* Achievements */}
     <motion.div
       className="mt-10 space-y-3"
       initial="hidden"
@@ -88,6 +146,7 @@ const Hero = () => (
       <p className="text-sm font-semibold uppercase tracking-[0.25em] text-indigo-500">
         Results I am proud of
       </p>
+
       <div className="grid gap-3 sm:grid-cols-3">
         {achievementsList.map((item) => (
           <motion.div
