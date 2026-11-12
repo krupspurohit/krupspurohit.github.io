@@ -99,33 +99,7 @@ const Hero = () => (
           </a>
         </div>
 
-        {/* Technology Stack */}
-        {/* <div className="pt-2">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-indigo-500">
-            Technologies I Work With
-          </p>
-
-          <div className="flex flex-wrap gap-2">
-            {[
-              'React.js',
-              'JavaScript',
-              'ASP.NET Core',
-              'C#',
-              'Entity Framework Core',
-              'SQL Server',
-              'Tailwind CSS',
-            ].map((tech) => (
-              <span
-                key={tech}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 shadow-sm"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-      </motion.div>
-    </div>  */}
+   
 
     {/* Achievements */}
     <motion.div
