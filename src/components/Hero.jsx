@@ -46,8 +46,7 @@ const Hero = () => (
 
         {/* Introduction */}
         <p className="text-lg text-slate-600 leading-relaxed">
-          I am a Full Stack Developer with a strong focus on frontend
-          development, building scalable, responsive, and user-friendly
+          I am a Full Stack Developer building scalable, responsive, and user-friendly
           web applications using React.js, JavaScript, and modern web
           technologies. I also work with ASP.NET Core, C#, Entity
           Framework Core, and SQL Server to develop backend services
