@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { FiLinkedin, FiMail, FiMapPin, FiPhoneCall } from 'react-icons/fi'
+
 import profileImg from '../assets/profile-small.jpg'
 import { achievementsList, contactLinks } from '../data/content'
 import { sectionVariants, staggerContainer } from '../utils/motion'
@@ -30,41 +32,41 @@ const Hero = () => (
     variants={staggerContainer}
   >
     <div className="grid grid-cols-1 gap-10 md:grid-cols-[1.1fr_1.9fr] md:items-center">
+
       <HeroImageCard />
 
       <motion.div className="space-y-6" variants={sectionVariants}>
-        {/* Professional Title */}
+
         <span className="inline-flex items-center gap-2 rounded-full bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-600">
           <span className="h-2 w-2 rounded-full bg-indigo-500" />
           Full Stack Developer
         </span>
 
-        {/* Name */}
         <h1 className="text-4xl sm:text-5xl font-semibold leading-tight text-slate-900">
           Hi, I'm Krupa Purohit
         </h1>
 
-        {/* Introduction */}
         <p className="text-lg text-slate-600 leading-relaxed">
-          I am a Full Stack Developer building scalable, responsive, and user-friendly
-          web applications using React.js, JavaScript, and modern web
-          technologies. I also work with ASP.NET Core, C#, Entity
-          Framework Core, and SQL Server to develop backend services
-          and RESTful APIs.
+          I am a Full Stack Developer building scalable, responsive, and
+          user-friendly web applications using React.js, JavaScript, and
+          modern web technologies. I also work with ASP.NET Core, C#,
+          Entity Framework Core, and SQL Server to develop backend
+          services and RESTful APIs.
         </p>
 
         {/* Action Buttons */}
         <div className="flex flex-wrap items-center gap-4">
-       <Link
-          to="/projects"
-          className="rounded-full bg-gradient-to-r from-indigo-600 to-sky-500 px-5 py-3 text-white font-semibold shadow-lg shadow-indigo-200 transition hover:translate-y-[-2px] hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-        >
-          View Projects
-        </Link>
+
+          <Link
+            to="/projects"
+            className="rounded-full bg-gradient-to-r from-indigo-600 to-sky-500 px-5 py-3 text-white font-semibold shadow-lg shadow-indigo-200 transition hover:translate-y-[-2px] hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          >
+            View Projects
+          </Link>
 
           <a
             href={`tel:${contactLinks.phone.replace(/\s+/g, '')}`}
-            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-slate-800 font-semibold shadow-sm transition hover:border-indigo-200 hover:text-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-slate-800 font-semibold shadow-sm transition hover:border-indigo-200 hover:text-indigo-600"
           >
             <FiPhoneCall className="text-indigo-500" />
             {contactLinks.phone}
@@ -74,10 +76,12 @@ const Hero = () => (
             <FiMapPin />
             <span>{contactLinks.location}</span>
           </div>
+
         </div>
 
         {/* Contact Links */}
         <div className="flex flex-wrap gap-3 text-sm text-slate-600">
+
           <div className="flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 shadow-sm ring-1 ring-slate-200">
             <FiMail className="text-indigo-500" />
             <a
@@ -97,9 +101,11 @@ const Hero = () => (
             <FiLinkedin className="text-indigo-500" />
             LinkedIn
           </a>
+
         </div>
 
-   
+      </motion.div>
+    </div>
 
     {/* Achievements */}
     <motion.div
@@ -125,6 +131,7 @@ const Hero = () => (
         ))}
       </div>
     </motion.div>
+
   </motion.section>
 )
 
