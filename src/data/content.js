@@ -60,26 +60,50 @@ export const experiences = [
 
 export const projects = [
   {
-    title: 'Order and Inventory Management UI',
+    title: 'Order and Inventory Management System',
     description:
-      'React-based UI for managing orders and inventory with improved performance and scalability.',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS'],
-    impact: 'Improved operational efficiency and system performance by 20%.',
+      'Contributed to the development of a scalable Order and Inventory Management System, building responsive React.js components and integrating frontend interfaces with backend APIs.',
+    tech: [
+      'React.js',
+      'JavaScript',
+      'ASP.NET Core',
+      'C#',
+      'Entity Framework Core',
+      'SQL Server',
+      'Tailwind CSS',
+    ],
+    impact:
+      'Contributed to improving operational efficiency and overall system performance by 20%.',
   },
   {
-    title: 'Wishlist Feature',
-    description: 'User-facing wishlist experience built with interactive React components.',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
-    impact: 'Enhanced user engagement through tailored UI flows.',
+    title: 'Wishlist Management Feature',
+    description:
+      'Developed an interactive wishlist feature using reusable React components, enabling users to manage and organize their favorite products.',
+    tech: [
+      'React.js',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'REST API Integration',
+    ],
+    impact:
+      'Improved the shopping experience and user engagement through seamless wishlist functionality.',
   },
   {
-    title: 'Product Recommendation UI',
+    title: 'Product Recommendation Feature',
     description:
-      'UI implementation of a product recommendation feature focused on clarity and conversion.',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
-    impact: 'Increased sales by 10% with concise, guided recommendations.',
+      'Contributed to the frontend implementation of a product recommendation feature, creating user-friendly UI components to help customers discover relevant products.',
+    tech: [
+      'React.js',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'API Integration',
+    ],
+    impact:
+      'Contributed to a 10% increase in sales through improved product discovery and recommendations.',
   },
-]
+];
 
 export const contactLinks = {
   email: 'krupapurohit84259@gmail.com',
