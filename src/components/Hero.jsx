@@ -54,13 +54,6 @@ const Hero = () => (
           and RESTful APIs.
         </p>
 
-        <p className="text-base text-slate-500 leading-relaxed">
-          With a background in Manual Testing, I bring a quality-driven
-          mindset to software development. I enjoy solving problems,
-          building maintainable applications, and creating seamless
-          user experiences.
-        </p>
-
         {/* Action Buttons */}
         <div className="flex flex-wrap items-center gap-4">
           <a
@@ -107,7 +100,7 @@ const Hero = () => (
           </a>
         </div>
 
-        {/* Technology Stack */}
+        /* {/* Technology Stack */}
         <div className="pt-2">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-indigo-500">
             Technologies I Work With
@@ -133,7 +126,7 @@ const Hero = () => (
           </div>
         </div>
       </motion.div>
-    </div>
+    </div> */
 
     {/* Achievements */}
     <motion.div
