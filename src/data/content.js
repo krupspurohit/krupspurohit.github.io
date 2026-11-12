@@ -7,7 +7,12 @@ export const navLinks = [
 ]
 
 export const skills = [
+  'C#',
+  'ASP.NET Core Web API',
   'React.js',
+  'SQL Server',
+  'Entity Framework Core',
+  'LINQ',
   'JavaScript',
   'HTML',
   'CSS',
@@ -16,6 +21,7 @@ export const skills = [
   'API Integration',
   'Debugging',
   'Problem Solving',
+  'Swagger'
 ]
 
 export const experiences = [
@@ -24,10 +30,10 @@ export const experiences = [
     company: 'Krishith Tech Solutions',
     duration: 'January 2025 - Present',
     highlights: [
-      'Designed and developed scalable React UI components for an Order and Inventory Management System.',
-      'Improved system performance and efficiency by 20%.',
-      'Built wishlist functionality and a product recommendation UI that boosted sales by 10%.',
-      'Integrated frontend UI with backend APIs and supported testing and bug fixes.',
+      'Develop responsive and reusable user interface components using React.js, JavaScript, HTML, and CSS.',
+      'Develop and maintain RESTful APIs using ASP.NET Core and C#; implement application features, APIvalidations, and       errorhandling.',
+      'Work with Entity Framework Core for database operations and migrations, and use SQL Server to manage and retrieve application data.',
+      'Integrate frontend components with backend APIs and collaborate with team members to debug and maintain application features.'
     ],
   },
   {
@@ -35,9 +41,10 @@ export const experiences = [
     company: 'Krishith Tech Solutions',
     duration: 'November 2024 - January 2025',
     highlights: [
-      'Built and enhanced reusable UI components using React, JavaScript, HTML, and CSS.',
-      'Practiced responsive and component-based UI development.',
-      'Collaborated with mentors to understand real-world development workflows.',
+      'Worked on frontend development using React.js, JavaScript, HTML, and CSS; built and enhanced responsive UI components.',
+      'Practiced component-based architecture and basic state management.',
+      'Gained practical exposure to ASP.NET Core, C#, REST API development, and backend application architecture.',
+      'Collaborated with mentors to understand real-world software development workflows.'
     ],
   },
   {
@@ -45,9 +52,8 @@ export const experiences = [
     company: 'Rajeshwar Infotech',
     duration: 'June 2023 - October 2024',
     highlights: [
-      'Performed Functional, Regression, and Smoke testing across web projects.',
-      'Created and executed test cases while following the software testing lifecycle.',
-      'Reported bugs with clear reproduction steps and verified fixes.',
+      'Performed functional, regression, and smoke testing on web and application-based projects while following the Software  Testing Life Cycle (STLC).',
+      'Designed and executed test cases, documented defects with clear reproduction steps, and collaborated with developers to verify fixes.'
     ],
   },
 ]
@@ -83,7 +89,7 @@ export const contactLinks = {
 }
 
 export const achievementsList = [
-  '20% performance lift for Order & Inventory Management UI.',
-  'Wishlist and recommendation UI that boosted sales by 10%.',
-  'Bridged QA mindset with React delivery for reliable releases.',
+       'Product Recommendation Feature: Contributed to UI implementation of a product recommendation feature,helping improve sales by 10%.',
+        'Order and Inventory Management System: Contributed to a team effort that improved operational efficiency and system performance by 20%.',
+
 ]
