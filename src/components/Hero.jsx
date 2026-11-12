@@ -55,12 +55,12 @@ const Hero = () => (
 
         {/* Action Buttons */}
         <div className="flex flex-wrap items-center gap-4">
-          <a
-            href="/projects"
-            className="rounded-full bg-gradient-to-r from-indigo-600 to-sky-500 px-5 py-3 text-white font-semibold shadow-lg shadow-indigo-200 transition hover:translate-y-[-2px] hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-          >
-            View Projects
-          </a>
+       <Link
+          to="/projects"
+          className="rounded-full bg-gradient-to-r from-indigo-600 to-sky-500 px-5 py-3 text-white font-semibold shadow-lg shadow-indigo-200 transition hover:translate-y-[-2px] hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+        >
+          View Projects
+        </Link>
 
           <a
             href={`tel:${contactLinks.phone.replace(/\s+/g, '')}`}
