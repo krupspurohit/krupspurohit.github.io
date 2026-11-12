@@ -27,7 +27,7 @@ const Layout = ({ children, menuOpen, setMenuOpen, navLinks, contactLinks }) => 
             </div>
             <div>
               <p className="text-base font-semibold text-slate-900">Krupa Purohit</p>
-              <p className="text-sm text-slate-500">Frontend Developer</p>
+              <p className="text-sm text-slate-500">Full Stack Developer</p>
             </div>
           </Link>
 
