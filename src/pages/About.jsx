@@ -44,8 +44,7 @@ const About = () => (
     accessibility for visually impaired users. I have implemented
     a skill-based program recommendation feature that reduced
     manual effort and processing time by 20%. I have also worked
-    on accessible React components with keyboard navigation and
-    Windows Narrator support to improve application usability.
+    on accessible React components with Windows Narrator support to improve application usability.
   </p>
 </div>
 
