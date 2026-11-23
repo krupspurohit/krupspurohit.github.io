@@ -116,7 +116,7 @@ export const contactLinks = {
 }
 
 export const achievementsList = [
-       'Product Recommendation Feature: Contributed to UI implementation of a product recommendation feature,helping improve sales by 10%.',
-        'Order and Inventory Management System: Contributed to a team effort that improved operational efficiency and system performance by 20%.',
+  'Program Recommendation Feature: Implemented skill-based program recommendations by mapping participant skills with program requirements, reducing manual effort and processing time by 20%.',
 
-]
+  'Accessibility Enhancement: Developed accessible React UI components with keyboard navigation and Windows Narrator support, improving usability for visually impaired users.',
+];
