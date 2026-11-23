@@ -21,32 +21,33 @@ const About = () => (
       transition={{ delay: 0.05 }}
     >
       {/* My Journey */}
-      <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-slate-900 mb-4">
-          My Journey
-        </h3>
+<div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+  <h3 className="text-xl font-semibold text-slate-900 mb-4">
+    My Journey
+  </h3>
 
-        <p className="text-slate-600 leading-relaxed">
-          I started my career as a Manual Tester at Rajeshwar Infotech,
-          where I developed a strong understanding of software quality,
-          testing processes, and attention to detail.
-        </p>
+  <p className="text-slate-600 leading-relaxed">
+    I started my career as a Manual Tester at Rajeshwar Infotech,
+    where I developed a strong understanding of software quality,
+    testing processes, and attention to detail.
+  </p>
 
-        <p className="mt-4 text-slate-600 leading-relaxed">
-          I then transitioned into software development as a Software
-          Engineer Intern at Krishith Tech Solutions and continued my
-          journey as a Junior Software Engineer at the same company.
-        </p>
+  <p className="mt-4 text-slate-600 leading-relaxed">
+    I then transitioned into software development as a Software
+    Engineer Intern at Krishith Tech Solutions and continued my
+    journey as a Junior Software Engineer at the same company.
+  </p>
 
-        <p className="mt-4 text-slate-600 leading-relaxed">
-          I have contributed to an Order and Inventory Management System
-          by developing reusable React components and integrating
-          frontend interfaces with backend APIs. My contributions helped
-          improve system performance and operational efficiency by 20%.
-          I have also contributed to wishlist and product recommendation
-          features that helped increase sales by 10%.
-        </p>
-      </div>
+  <p className="mt-4 text-slate-600 leading-relaxed">
+    Currently, I contribute to a web-based application for NYCD,
+    focusing on participant management, training programs, and
+    accessibility for visually impaired users. I have implemented
+    a skill-based program recommendation feature that reduced
+    manual effort and processing time by 20%. I have also worked
+    on accessible React components with keyboard navigation and
+    Windows Narrator support to improve application usability.
+  </p>
+</div>
 
       {/* What I Work With */}
       <div className="rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50 to-sky-50 p-6 shadow-sm">
