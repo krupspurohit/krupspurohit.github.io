@@ -60,48 +60,51 @@ export const experiences = [
 
 export const projects = [
   {
-    title: 'Order and Inventory Management System',
+    title: 'Program Recommendation Feature',
     description:
-      'Contributed to the development of a scalable Order and Inventory Management System, building responsive React.js components and integrating frontend interfaces with backend APIs.',
+      'Implemented a skill-based program recommendation feature that matches participants’ skills with program requirements using predefined mandatory and good-to-have skills.',
     tech: [
       'React.js',
-      'JavaScript',
-      'ASP.NET Core',
+      'TypeScript',
       'C#',
+      'ASP.NET Core',
       'Entity Framework Core',
       'SQL Server',
-      'Tailwind CSS',
-    ],
-    impact:
-      'Contributed to improving operational efficiency and overall system performance by 20%.',
-  },
-  {
-    title: 'Wishlist Management Feature',
-    description:
-      'Developed an interactive wishlist feature using reusable React components, enabling users to manage and organize their favorite products.',
-    tech: [
-      'React.js',
-      'JavaScript',
-      'HTML',
-      'CSS',
       'REST API Integration',
     ],
     impact:
-      'Improved the shopping experience and user engagement through seamless wishlist functionality.',
+      'Reduced manual effort and program selection processing time by 20% through automated skill-based recommendations.',
   },
   {
-    title: 'Product Recommendation Feature',
+    title: 'Accessibility Enhancement',
     description:
-      'Contributed to the frontend implementation of a product recommendation feature, creating user-friendly UI components to help customers discover relevant products.',
+      'Developed accessible and user-friendly React UI components with proper keyboard navigation, semantic HTML, and Windows Narrator support to improve application usability for visually impaired users.',
     tech: [
       'React.js',
-      'JavaScript',
+      'TypeScript',
       'HTML',
       'CSS',
-      'API Integration',
+      'Tailwind CSS',
+      'Accessibility',
+      'Windows Narrator',
     ],
     impact:
-      'Contributed to a 10% increase in sales through improved product discovery and recommendations.',
+      'Improved application accessibility and enabled visually impaired users to navigate and interact with the application using screen readers.',
+  },
+  {
+    title: 'Participant Management System',
+    description:
+      'Contributed to the development of a web-based platform for managing participant registration, training programs, and earning opportunities for an organization supporting blind people.',
+    tech: [
+      'React.js',
+      'TypeScript',
+      'C#',
+      'ASP.NET Core',
+      'Entity Framework Core',
+      'SQL Server',
+    ],
+    impact:
+      'Contributed to streamlining participant management and training program workflows through integrated frontend and backend functionality.',
   },
 ];
 
